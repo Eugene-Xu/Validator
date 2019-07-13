@@ -1,0 +1,22 @@
+{
+    "name": "eugene-xu/validator",
+    "type": "library",
+    "require": {
+
+    },
+    "require-dev": {
+
+    },
+    "authors": [
+        {
+            "name": "Eugene",
+            "email": "564916624@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Validator\\": "src/"
+        }
+    }
+}
