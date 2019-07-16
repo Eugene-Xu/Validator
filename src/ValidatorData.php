@@ -19,6 +19,7 @@ class ValidatorData
             $attribute=$rule[0];
             $type=$rule[1];
             $bean=\Swoft::getBean('my_'.$type.'_validator');
+
             $bean->validateAttribute($model,$attribute);
         }
         return $model;
